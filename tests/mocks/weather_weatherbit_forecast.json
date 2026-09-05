@@ -1,5 +1,5 @@
 {
-	"city_name": "New York City",
+	"city_name": "Washington, D.C.",
 	"country_code": "US",
 	"data": [
 		{
@@ -283,8 +283,8 @@
 			"wind_spd": 5.3
 		}
 	],
-	"lat": 40.7128,
-	"lon": -74.006,
-	"state_code": "NY",
+	"lat": 38.9072,
+	"lon": -77.0369,
+	"state_code": "DC",
 	"timezone": "America/New_York"
 }

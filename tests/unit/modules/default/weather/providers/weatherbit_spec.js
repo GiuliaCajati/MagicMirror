@@ -42,8 +42,8 @@ describe("WeatherbitProvider", () => {
 		it("should set config values from params", () => {
 			const provider = new WeatherbitProvider({
 				apiKey: "test-api-key",
-				lat: 40.71,
-				lon: -74.0,
+				lat: 38.91,
+				lon: -77.04,
 				type: "current"
 			});
 			expect(provider.config.apiKey).toBe("test-api-key");
@@ -53,8 +53,8 @@ describe("WeatherbitProvider", () => {
 
 		it("should error if API key is missing", async () => {
 			const provider = new WeatherbitProvider({
-				lat: 40.71,
-				lon: -74.0
+				lat: 38.91,
+				lon: -77.04
 			});
 
 			const errorPromise = new Promise((resolve) => {
@@ -72,8 +72,8 @@ describe("WeatherbitProvider", () => {
 		it("should parse current weather data", async () => {
 			const provider = new WeatherbitProvider({
 				apiKey: "test-key",
-				lat: 40.71,
-				lon: -74.0,
+				lat: 38.91,
+				lon: -77.04,
 				type: "current"
 			});
 
@@ -102,8 +102,8 @@ describe("WeatherbitProvider", () => {
 		it("should parse sunrise/sunset from HH:mm format", async () => {
 			const provider = new WeatherbitProvider({
 				apiKey: "test-key",
-				lat: 40.71,
-				lon: -74.0,
+				lat: 38.91,
+				lon: -77.04,
 				type: "current"
 			});
 
@@ -129,8 +129,8 @@ describe("WeatherbitProvider", () => {
 		it("should convert icon code to weather type", async () => {
 			const provider = new WeatherbitProvider({
 				apiKey: "test-key",
-				lat: 40.71,
-				lon: -74.0,
+				lat: 38.91,
+				lon: -77.04,
 				type: "current"
 			});
 
@@ -157,8 +157,8 @@ describe("WeatherbitProvider", () => {
 		it("should parse daily forecast data", async () => {
 			const provider = new WeatherbitProvider({
 				apiKey: "test-key",
-				lat: 40.71,
-				lon: -74.0,
+				lat: 38.91,
+				lon: -77.04,
 				type: "forecast"
 			});
 
