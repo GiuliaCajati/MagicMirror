@@ -1,0 +1,34 @@
+.workout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.workout-button {
+  min-height: 64px;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.workout-button:hover,
+.workout-button:focus-visible {
+  background: #333;
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+.workout-button:active {
+  background: #555;
+}
+
+.workout-hint {
+  font-size: 0.75rem;
+}

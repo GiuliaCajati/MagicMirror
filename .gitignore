@@ -58,6 +58,8 @@ Temporary Items
 /modules/*
 !/modules/pi-temperature/
 !/modules/pi-temperature/**
+!/modules/workout/
+!/modules/workout/**
 
 # Ignore users config file but keep the samples.
 config
