@@ -56,6 +56,8 @@ Temporary Items
 
 # Ignore all modules
 /modules/*
+!/modules/pi-temperature/
+!/modules/pi-temperature/**
 
 # Ignore users config file but keep the samples.
 config

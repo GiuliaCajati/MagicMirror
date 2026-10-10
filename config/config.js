@@ -110,6 +110,10 @@ let config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{
+			module: "pi-temperature",
+			position: "bottom_left"
+		},
 	]
 };
 
