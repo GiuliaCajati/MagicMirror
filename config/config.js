@@ -77,6 +77,7 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
+				tempUnits: "imperial",
 				lat: 38.9072,
 				lon: -77.0369
 			}
@@ -88,6 +89,7 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
+				tempUnits: "imperial",
 				lat: 38.9072,
 				lon: -77.0369
 			}
