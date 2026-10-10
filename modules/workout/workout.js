@@ -1,8 +1,11 @@
-const WORKOUT_URL = "https://www.youtube.com/watch?v=YOUR_WORKOUT_VIDEO_ID";
+const WORKOUT_URL = "https://www.youtube.com/watch?v=pNqrkGnkUWc";
 
 Module.register("workout", {
 	getDom () {
-		return document.createElement("div");
+		const hint = document.createElement("div");
+		hint.className = "workout-hint dimmed";
+		hint.textContent = 'Say "Start my workout"';
+		return hint;
 	},
 
 	notificationReceived (notification) {

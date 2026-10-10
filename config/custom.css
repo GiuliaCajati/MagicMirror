@@ -85,6 +85,31 @@ header {
   padding-bottom: 5px;
 }
 
+.module.calendar {
+  width: 100%;
+  max-width: 500px;
+}
+
+.module.calendar .event-wrapper {
+  border-left: 2px solid rgba(128, 190, 198, 0.42);
+}
+
+.module.calendar .event-wrapper.today {
+  border-left-color: rgba(220, 246, 246, 0.9);
+}
+
+.module.calendar .title {
+  padding-left: 14px;
+  color: var(--color-text-bright);
+}
+
+.module.calendar .time {
+  min-width: 92px;
+  padding-right: 0;
+  color: var(--color-text-dimmed);
+  font-size: var(--font-size-xsmall);
+}
+
 .module.newsfeed {
   text-align: left;
 }
@@ -96,6 +121,13 @@ header {
 .module.compliments {
   color: var(--color-text-bright);
   text-shadow: 0 0 22px rgba(208, 229, 234, 0.14);
+}
+
+.workout-hint {
+  font-size: var(--font-size-xsmall);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.72;
 }
 
 .region.top.left {

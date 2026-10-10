@@ -55,14 +55,14 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
 			position: "top_left",
+			header: "Schedule",
 			config: {
+				maximumEntries: 5,
 				calendars: [
 					{
-						fetchInterval: 7 * 24 * 60 * 60 * 1000,
 						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+						url: "https://calendar.google.com/calendar/ical/cfd1e8c3856087247f6312a45d83369073bfcb6a38470315a52dcb856d137086%40group.calendar.google.com/private-3516fad1bc0f3ac0276dd17c8645bce7/basic.ics"
 					}
 				]
 			}
